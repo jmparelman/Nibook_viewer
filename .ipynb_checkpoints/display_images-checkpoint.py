@@ -71,5 +71,7 @@ def display_images(images):
     boxlist.append(z_box)
     z_slider.observe(z,names='value')
 
+    
+    
     box = pw.VBox([pw.HBox(boxlist)],layout=pw.Layout(height="100%",width="100%"))
     display(box)
